@@ -1,9 +1,15 @@
 import "./App.css";
-
+import Header from "../src/components/Header";
+import Section1 from "./components/Main/Section1";
 function App() {
   return (
     <div className="App">
-      <h1>Olá mundo</h1>
+      <header>
+        <Header />
+      </header>
+      <main>
+        <Section1 />
+      </main>
     </div>
   );
 }
