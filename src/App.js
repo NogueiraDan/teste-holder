@@ -1,6 +1,9 @@
 import "./App.css";
 import Header from "../src/components/Header";
 import Section1 from "./components/Main/Section1";
+import Section2 from "./components/Main/Section2";
+import Section3 from "./components/Main/Section3";
+import Section4 from "./components/Main/Section4";
 function App() {
   return (
     <div className="App">
@@ -9,6 +12,9 @@ function App() {
       </header>
       <main>
         <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
       </main>
     </div>
   );
