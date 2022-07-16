@@ -1,45 +1,54 @@
 import React from "react";
 import * as S from "./styled";
-import premium from "../Section3/icon.png";
-import grafico from "../Section3/grafico-de-barras.png";
-import gpizza from "../Section3/grafico-de-pizza.png";
-
+import warning from "../Section4/warning.png";
 const Section3 = () => {
   return (
     <>
-      <S.ContainerCarrossel className="carrossel">
-        <S.ElementCarrosel>
-          <S.ElementTitle>
-            <i>PREMIUM</i>
-          </S.ElementTitle>
-          <S.ElementContent>
-            Diversos gráficos para auxiliar no acompanhamento e gerenciamento da
-            sua carreira patrimonial
-          </S.ElementContent>
-        </S.ElementCarrosel>
+      <S.BackgroundContainer>
+        <S.TitleSection4>
+          <h1>
+            <strong>VALOR DE INVESTIMENTO</strong>
+          </h1>
+        </S.TitleSection4>
 
-        <S.ElementCarrosel>
-          <S.ElementTitle>
-            <i>PARTIMONIO CONSOLIDADO</i>
-          </S.ElementTitle>
-          <S.ElementContent>
-            Tenha todos os seus investimentos consolidados em uma só carteira.
-            Somos a plataforma que oferece o maior leque de aplicações
-            financeiras do mercado.
-          </S.ElementContent>
-        </S.ElementCarrosel>
+        <S.ContainerCarrossel className="investimentos">
+          <S.ElementCarrosel>
+            <S.ElementTitle></S.ElementTitle>
+            <S.OFF>
+              <strong>20%</strong> OFF
+            </S.OFF>
+            <S.PriceParcel>
+              De{" "}
+              <b>
+                <s>R$ 142,80</s>
+              </b>{" "}
+              por 12x de <br />
+            </S.PriceParcel>
 
-        <S.ElementCarrosel>
-          <S.ElementTitle>
-            <i>REBALANCEAMENTO</i>
-          </S.ElementTitle>
-          <S.ElementContent>
-            Ferramenta inedita para não deixar as emoções do mercado abalarem
-            sua estratégia de investimento! Com o rebalanceamento você poderá
-            atribuir uma nota ou porcentagem ideal para cada classe e ativo.
-          </S.ElementContent>
-        </S.ElementCarrosel>
-      </S.ContainerCarrossel>
+            <S.Price>
+              <p style={{ fontSize: "30px", marginTop: "38px" }}>R$</p>
+              <p>
+                <b>9,52</b>
+              </p>
+            </S.Price>
+            <p style={{ fontSize: "20px" }}>
+              <i>Ou R$114,24 à vista</i>
+            </p>
+            <S.ButtonElement>QUERO MEU PLANO AGORA</S.ButtonElement>
+
+            <S.FooterElement>
+              <S.IconFooter src={warning} />
+              <i style={{ marginTop: "8px", marginLeft: "5px" }}>
+                Desconto válido até 15/07 às 23:59
+              </i>
+            </S.FooterElement>
+          </S.ElementCarrosel>
+
+          <S.ElementCarrosel></S.ElementCarrosel>
+
+          <S.ElementCarrosel></S.ElementCarrosel>
+        </S.ContainerCarrossel>
+      </S.BackgroundContainer>
     </>
   );
 };
