@@ -1,6 +1,8 @@
 import React from "react";
 import * as S from "./styled";
 import star from "../Section5/star.png";
+import Accordion from "react-bootstrap/Accordion";
+
 const Section5 = () => {
   return (
     <>
@@ -126,7 +128,37 @@ const Section5 = () => {
           elementum. Quisque rutrum est lobortis ligula malesuada pellentesque.
           Morbi non.
         </p>
+        <p
+          style={{
+            color: "gray",
+            fontSize: "16px",
+            wordBreak: "break-all",
+            fontWeight: "500",
+          }}
+        >
+          *Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
       </S.Garantia>
+      <p style={{ fontSize: "30px", marginTop: "30px" }}>
+        <i>FAQ</i>
+      </p>
+      <S.Questions>
+        <S.Question>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </S.Question>
+        <S.Question>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </S.Question>
+        <S.Question>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </S.Question>
+        <S.Question>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </S.Question>
+        <S.Question>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </S.Question>
+      </S.Questions>
     </>
   );
 };

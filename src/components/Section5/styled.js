@@ -47,7 +47,7 @@ export const StarRate = styled.img`
 export const ButtonSection5 = styled.button`
   margin-bottom: 10px;
   text-decoration: none;
-  width: 15%;
+  width: 20%;
   height: 60px;
   border-radius: 10px;
   background-color: #fa5f01;
@@ -64,9 +64,29 @@ export const Garantia = styled.div`
   height: 200px;
   width: 35%;
   text-align: start;
-  padding: 0 8px;
+  padding: 5px 8px;
   border-radius: 5px;
   background-color: black;
   color: #fa5f01;
   justify-content: center;
+`;
+
+export const Questions = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Question = styled.div`
+  height: 35px;
+  width: 40%;
+  background-color: #fa5f01;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding-left: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: start;
 `;
