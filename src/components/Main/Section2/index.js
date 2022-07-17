@@ -25,7 +25,9 @@ const Section2 = () => {
           </figure>
         </S.Section1Image>
       </S.Section2Container>
-      <S.ButtonAction>ASSINE JÁ</S.ButtonAction>
+      <S.ButtonAction>
+        <p style={{ fontSize: "22px", paddingTop: "10px" }}>ASSINE JÁ</p>
+      </S.ButtonAction>
     </>
   );
 };

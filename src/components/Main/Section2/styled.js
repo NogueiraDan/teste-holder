@@ -37,8 +37,8 @@ export const TextSubContent = styled.p`
 
 export const ButtonAction = styled.button`
   text-decoration: none;
-  width: 18%;
-  height: 48px;
+  width: 20%;
+  height: 60px;
   border-radius: 10px;
   background-color: #fa5f01;
   color: white;

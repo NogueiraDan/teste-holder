@@ -117,7 +117,9 @@ const Section5 = () => {
         </S.Testimonials>
       </S.BackgroundContainer>
 
-      <S.ButtonSection5>ASSINE JÁ</S.ButtonSection5>
+      <S.ButtonSection5>
+        <p style={{ fontSize: "22px", paddingTop: "10px" }}>ASSINE JÁ</p>
+      </S.ButtonSection5>
       <S.Garantia>
         <span style={{ fontSize: "26px", fontWeight: "bold" }}>
           7 DIAS SEM COMPROMISSO

@@ -12,7 +12,8 @@ export const ElementCarrosel = styled.div`
   flex-direction: column;
   height: 300px;
   width: 30%;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   background-color: #f3f3f3;
   border-radius: 20px;
   padding: 20px;

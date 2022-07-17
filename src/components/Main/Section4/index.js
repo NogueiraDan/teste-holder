@@ -6,9 +6,7 @@ const Section4 = () => {
     <>
       <S.BackgroundContainer>
         <S.TitleSection4>
-          <h1>
-            <strong>VALOR DE INVESTIMENTO</strong>
-          </h1>
+          <p>VALOR DE INVESTIMENTO</p>
         </S.TitleSection4>
 
         <S.ContainerCarrossel className="investimentos">

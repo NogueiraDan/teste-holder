@@ -1,13 +1,17 @@
 import styled from "styled-components";
 
 export const TitleSection4 = styled.div`
-  padding: 20px 0;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: #f5741a;
 `;
 
 export const BackgroundContainer = styled.div`
-  background-color: #f2a279;
+  background-color: #ffd7bd;
   height: 50vh;
   margin-bottom: 70vh;
+  border-radius: 5px;
 `;
 
 export const ContainerCarrossel = styled.div`
@@ -39,7 +43,7 @@ export const ElementCenterCarrosel = styled.div`
   border-radius: 15px;
 `;
 export const ElementTitle = styled.div`
-  height: 20%;
+  height: 15%;
   width: 100%;
   background-color: #002e3e;
   border-top-left-radius: 15px;
