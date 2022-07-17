@@ -52,7 +52,7 @@ const Section5 = () => {
               <span
                 style={{ color: "purple", fontSize: "20px", fontWeight: "500" }}
               >
-                Alex Junior
+                Guilherme
               </span>
             </div>
             <br />
@@ -76,7 +76,7 @@ const Section5 = () => {
               <span
                 style={{ color: "purple", fontSize: "20px", fontWeight: "500" }}
               >
-                Alex Junior
+                Marcio Valerio
               </span>
             </div>
             <br />
@@ -100,7 +100,7 @@ const Section5 = () => {
               <span
                 style={{ color: "purple", fontSize: "20px", fontWeight: "500" }}
               >
-                Alex Junior
+                João Ferreira
               </span>
             </div>
             <br />
@@ -114,6 +114,19 @@ const Section5 = () => {
           </S.ElementTestimonials>
         </S.Testimonials>
       </S.BackgroundContainer>
+
+      <S.ButtonSection5>ASSINE JÁ</S.ButtonSection5>
+      <S.Garantia>
+        <span style={{ fontSize: "26px", fontWeight: "bold" }}>
+          7 DIAS SEM COMPROMISSO
+        </span>
+        <p style={{ color: "white", fontSize: "16px", wordBreak: "break-all" }}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          porta diam nec odio dictum volutpat. Cras pulvinar dui ut mollis
+          elementum. Quisque rutrum est lobortis ligula malesuada pellentesque.
+          Morbi non.
+        </p>
+      </S.Garantia>
     </>
   );
 };

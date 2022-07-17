@@ -43,3 +43,30 @@ export const StarRate = styled.img`
   width: 20px;
   margin: 0 3px;
 `;
+
+export const ButtonSection5 = styled.button`
+  margin-bottom: 10px;
+  text-decoration: none;
+  width: 15%;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #fa5f01;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+`;
+
+export const Garantia = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  height: 200px;
+  width: 35%;
+  text-align: start;
+  padding: 0 8px;
+  border-radius: 5px;
+  background-color: black;
+  color: #fa5f01;
+  justify-content: center;
+`;
