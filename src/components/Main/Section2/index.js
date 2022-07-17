@@ -19,11 +19,11 @@ const Section2 = () => {
           </S.TextSubContent>
         </S.Section2Content>
 
-        <S.Section1Image>
+        <S.Section2Image>
           <figure>
             <S.ImgSection2 src={img} />
           </figure>
-        </S.Section1Image>
+        </S.Section2Image>
       </S.Section2Container>
       <S.ButtonAction>
         <a href="#assine-2" style={{ textDecoration: "none", color: "white" }}>

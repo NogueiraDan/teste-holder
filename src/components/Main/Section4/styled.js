@@ -41,6 +41,12 @@ export const ElementCenterCarrosel = styled.div`
   margin-top: 0px;
   background-color: #028c8f;
   border-radius: 15px;
+  @media (max-width: 800px) {
+    width: 35%;
+  }
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 `;
 export const ElementTitle = styled.div`
   height: 15%;
@@ -98,6 +104,9 @@ export const ButtonElement = styled.button`
   border: none;
   font-weight: bold;
   font-size: 16px;
+  @media (max-width: 800px) {
+    height: 55px;
+  }
 `;
 
 export const FooterElement = styled.div`
@@ -110,4 +119,9 @@ export const IconFooter = styled.img`
   margin-top: 0;
   heigth: 30px;
   width: 30px;
+  @media (max-width: 800px) {
+    height: 30px;
+    width: 30px;
+    display: flex;
+  }
 `;

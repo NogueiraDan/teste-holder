@@ -4,17 +4,14 @@ export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px 20px;
   width: 100%;
-  max-width: 1168px;
   background-color: #562293;
   color: white;
 
   @media (max-width: 800px) {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-between;
   }
 `;
 
@@ -27,6 +24,14 @@ export const ButtonHeader = styled.button`
   border: none;
   font-weight: bold;
   font-size: 14px;
+  @media (max-width: 800px) {
+    width: 20%;
+    justify-content: space-between;
+  }
+  @media (max-width: 1023px) {
+    width: 20%;
+    justify-content: space-between;
+  }
 `;
 
 export const Timer = styled.p`
@@ -39,5 +44,3 @@ export const Logo = styled.img`
   height: 50px;
   width: 50px;
 `;
-
-// Responsividade

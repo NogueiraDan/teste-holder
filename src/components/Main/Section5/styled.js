@@ -36,6 +36,11 @@ export const ElementTestimonials = styled.div`
   padding-top: 20px;
   padding-left: 20px;
   text-align: start;
+  @media (max-width: 800px) {
+    width: 23%;
+    text-align: center;
+    padding: 20px 5px;
+  }
 `;
 
 export const StarRate = styled.img`
@@ -55,6 +60,10 @@ export const ButtonSection5 = styled.button`
   border: none;
   font-weight: bold;
   font-size: 14px;
+  @media (max-width: 800px) {
+    margin-bottom: 90px;
+    margin-top: -100px;
+  }
 `;
 
 export const Garantia = styled.div`
@@ -69,6 +78,13 @@ export const Garantia = styled.div`
   background-color: black;
   color: #fa5f01;
   justify-content: center;
+  @media (max-width: 800px) {
+    height: 400px;
+    padding: 10px;
+  }
+  @media (max-width: 1024px) {
+    height: 300px;
+  }
 `;
 
 export const Questions = styled.div`
@@ -89,4 +105,12 @@ export const Question = styled.div`
   font-size: 16px;
   font-weight: 400;
   text-align: start;
+  @media (max-width: 800px) {
+    font-size: 16px;
+    padding: 10px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 14px;
+    padding: 5px 15px;
+  }
 `;
