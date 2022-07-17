@@ -4,11 +4,18 @@ export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10px 20px;
   width: 100%;
+  max-width: 1168px;
   background-color: #562293;
   color: white;
+
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 `;
 
 export const ButtonHeader = styled.button`
@@ -32,3 +39,5 @@ export const Logo = styled.img`
   height: 50px;
   width: 50px;
 `;
+
+// Responsividade

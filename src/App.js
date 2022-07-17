@@ -4,7 +4,7 @@ import Section1 from "./components/Main/Section1";
 import Section2 from "./components/Main/Section2";
 import Section3 from "./components/Main/Section3";
 import Section4 from "./components/Main/Section4";
-import Section5 from "./components/Section5";
+import Section5 from "./components/Main/Section5";
 function App() {
   return (
     <div className="App">
