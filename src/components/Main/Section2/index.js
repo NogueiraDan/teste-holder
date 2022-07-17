@@ -1,5 +1,6 @@
 import React from "react";
 import * as S from "./styled";
+import img from "../Section1/telas.png";
 const Section2 = () => {
   return (
     <>
@@ -19,7 +20,9 @@ const Section2 = () => {
         </S.Section2Content>
 
         <S.Section1Image>
-          {/* <img src="https://drive.google.com/file/d/1Lr2w9hgR5owzyXxYBUzQILaA7hg9JpeA/view?usp=sharing" /> */}
+          <figure>
+            <S.ImgSection2 src={img} />
+          </figure>
         </S.Section1Image>
       </S.Section2Container>
       <S.ButtonAction>ASSINE JÁ</S.ButtonAction>

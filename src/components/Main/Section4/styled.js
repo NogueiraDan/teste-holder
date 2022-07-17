@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
-export const TitleSection4 = styled.div``;
+export const TitleSection4 = styled.div`
+  padding: 20px 0;
+`;
 
 export const BackgroundContainer = styled.div`
   background-color: #f2a279;
   height: 50vh;
-  margin-bottom: 100px;
+  margin-bottom: 70vh;
 `;
 
 export const ContainerCarrossel = styled.div`
@@ -26,6 +28,16 @@ export const ElementCarrosel = styled.div`
   border-radius: 15px;
 `;
 
+export const ElementCenterCarrosel = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  width: 30%;
+  margin-top: 0px;
+  background-color: #028c8f;
+  border-radius: 15px;
+`;
 export const ElementTitle = styled.div`
   height: 20%;
   width: 100%;
@@ -46,6 +58,18 @@ export const OFF = styled.div`
   background-color: #fa5f01;
 `;
 
+export const OFFCenter = styled.div`
+  height: 40px;
+  width: 60%;
+  border-radius: 30px;
+  margin-top: -15px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #fa5f01;
+  background-color: white;
+`;
+
 export const PriceParcel = styled.div`
   margin-top: 10px;
   display: block;
@@ -59,7 +83,6 @@ export const Price = styled.div`
   margin-bottom: -15px;
   fontweight: bold;
 `;
-
 export const ButtonElement = styled.button`
   text-decoration: none;
   width: 75%;

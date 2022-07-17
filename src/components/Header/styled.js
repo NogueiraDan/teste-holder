@@ -27,3 +27,8 @@ export const Timer = styled.p`
   font-size: 20px;
   margin-top: 10px;
 `;
+
+export const Logo = styled.img`
+  height: 50px;
+  width: 50px;
+`;

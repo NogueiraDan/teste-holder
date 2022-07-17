@@ -47,3 +47,10 @@ export const ButtonAction = styled.button`
   font-size: 18px;
   margin-bottom: 100px;
 `;
+
+export const ImgSection2 = styled.img`
+  height: 480px;
+  width: 500px;
+  position: relative;
+  margin-bottom: 10px;
+`;

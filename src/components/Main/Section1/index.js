@@ -1,11 +1,14 @@
 import React from "react";
 import * as S from "./styled";
+import img from "../Section1/telas.png";
 const Section1 = () => {
   return (
     <>
       <S.Section1Container>
         <S.Section1Image>
-          {/* <img src="https://drive.google.com/file/d/1Lr2w9hgR5owzyXxYBUzQILaA7hg9JpeA/view?usp=sharing" /> */}
+          <figure>
+            <S.ImgSection1 src={img} />
+          </figure>
         </S.Section1Image>
 
         <S.Section1Content>

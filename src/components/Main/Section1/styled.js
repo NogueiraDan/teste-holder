@@ -34,3 +34,10 @@ export const TextSubContent = styled.p`
   padding-left: 100px;
   padding-top: 20px;
 `;
+
+export const ImgSection1 = styled.img`
+  height: 480px;
+  width: 500px;
+  position: relative;
+  margin-bottom: 10px;
+`;
