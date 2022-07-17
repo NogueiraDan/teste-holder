@@ -79,11 +79,15 @@ export const Garantia = styled.div`
   color: #fa5f01;
   justify-content: center;
   @media (max-width: 800px) {
-    height: 400px;
-    padding: 10px;
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
   }
   @media (max-width: 1024px) {
     height: 300px;
+    text-align: center;
+    padding: 10px;
   }
 `;
 
@@ -106,8 +110,10 @@ export const Question = styled.div`
   font-weight: 400;
   text-align: start;
   @media (max-width: 800px) {
-    font-size: 16px;
-    padding: 10px;
+    font-size: 14px;
+    padding: 30px;
+    width: 300px;
+    height: 50px;
   }
   @media (max-width: 1024px) {
     font-size: 14px;

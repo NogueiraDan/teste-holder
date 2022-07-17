@@ -28,9 +28,10 @@ export const TextContent = styled.p`
   padding-left: 20%;
   padding-top: 50px;
   @media (max-width: 800px) {
-    height: 400px;
-    width: 350px;
-    margin-bottom: -200px;
+    font-size: 40px;
+    line-height: 2.3rem;
+    margin-top: -20px;
+    padding-left: 50px;
   }
 `;
 
@@ -40,10 +41,7 @@ export const TextSubContent = styled.p`
   padding-left: 20%;
   padding-top: 20px;
   @media (max-width: 800px) {
-    height: 400px;
-    width: 350px;
-    margin-bottom: -200px;
-    padding-left: 50px;
+    padding-left: 40px;
   }
 `;
 
