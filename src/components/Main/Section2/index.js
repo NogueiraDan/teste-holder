@@ -4,7 +4,7 @@ import img from "../Section1/telas.png";
 const Section2 = () => {
   return (
     <>
-      <S.Section2Container>
+      <S.Section2Container id="assine">
         <S.Section2Content>
           <S.TextContent>
             <i>
@@ -26,7 +26,9 @@ const Section2 = () => {
         </S.Section1Image>
       </S.Section2Container>
       <S.ButtonAction>
-        <p style={{ fontSize: "22px", paddingTop: "10px" }}>ASSINE JÁ</p>
+        <a href="#assine-2" style={{ textDecoration: "none", color: "white" }}>
+          <p style={{ fontSize: "22px", paddingTop: "10px" }}>ASSINE JÁ</p>
+        </a>
       </S.ButtonAction>
     </>
   );

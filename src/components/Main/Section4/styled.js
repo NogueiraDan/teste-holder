@@ -36,7 +36,7 @@ export const ElementCenterCarrosel = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh;
+  height: 85vh;
   width: 30%;
   margin-top: 0px;
   background-color: #028c8f;

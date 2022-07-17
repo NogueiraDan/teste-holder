@@ -118,7 +118,9 @@ const Section5 = () => {
       </S.BackgroundContainer>
 
       <S.ButtonSection5>
-        <p style={{ fontSize: "22px", paddingTop: "10px" }}>ASSINE JÁ</p>
+        <a href="#assine-2" style={{ textDecoration: "none", color: "white" }}>
+          <p style={{ fontSize: "22px", paddingTop: "10px" }}>ASSINE JÁ</p>
+        </a>
       </S.ButtonSection5>
       <S.Garantia>
         <span style={{ fontSize: "26px", fontWeight: "bold" }}>

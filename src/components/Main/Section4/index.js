@@ -5,7 +5,7 @@ const Section4 = () => {
   return (
     <>
       <S.BackgroundContainer>
-        <S.TitleSection4>
+        <S.TitleSection4 id="assine-2">
           <p>VALOR DE INVESTIMENTO</p>
         </S.TitleSection4>
 
