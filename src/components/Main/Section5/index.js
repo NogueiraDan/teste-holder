@@ -5,7 +5,7 @@ import Accordion from "react-bootstrap/Accordion";
 
 const Section5 = () => {
   return (
-    <>
+    <section>
       <S.TitleSection5>
         <i>Veja o que as pessoas falam da Holder+</i>
       </S.TitleSection5>
@@ -163,7 +163,7 @@ const Section5 = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </S.Question>
       </S.Questions>
-    </>
+    </section>
   );
 };
 

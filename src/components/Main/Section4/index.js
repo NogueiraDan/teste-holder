@@ -3,7 +3,7 @@ import * as S from "./styled";
 import warning from "../Section4/warning.png";
 const Section4 = () => {
   return (
-    <>
+    <section>
       <S.BackgroundContainer>
         <S.TitleSection4 id="assine-2">
           <p>VALOR DE INVESTIMENTO</p>
@@ -109,7 +109,7 @@ const Section4 = () => {
           </S.ElementCarrosel>
         </S.ContainerCarrossel>
       </S.BackgroundContainer>
-    </>
+    </section>
   );
 };
 

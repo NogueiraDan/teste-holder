@@ -3,7 +3,7 @@ import * as S from "./styled";
 import img from "../Section1/telas.png";
 const Section1 = () => {
   return (
-    <>
+    <section>
       <S.Section1Container>
         <S.Section1Image>
           <figure>
@@ -32,7 +32,7 @@ const Section1 = () => {
           </S.TextSubContent>
         </S.Section1Content>
       </S.Section1Container>
-    </>
+    </section>
   );
 };
 

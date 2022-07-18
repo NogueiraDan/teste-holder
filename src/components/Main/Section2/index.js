@@ -3,7 +3,7 @@ import * as S from "./styled";
 import img from "../Section1/telas.png";
 const Section2 = () => {
   return (
-    <>
+    <section>
       <S.Section2Container id="assine">
         <S.Section2Content>
           <S.TextContent>
@@ -30,7 +30,7 @@ const Section2 = () => {
           <p style={{ fontSize: "22px", paddingTop: "10px" }}>ASSINE JÁ</p>
         </a>
       </S.ButtonAction>
-    </>
+    </section>
   );
 };
 
